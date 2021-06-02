@@ -1,0 +1,102 @@
+.carousel-indicators li{
+    width:10px;
+    height:10px;
+    border-radius:100%;
+    margin: 0 10px; 
+}
+.carousel-indicators .active{
+    width: 15px;
+    height:15px;
+    background-color: #ff4757;
+    border: 2px solid #a4b0be;
+    margin-top: 6px;
+}
+.card {
+    padding: 0 20px;
+    font-weight: bold;
+    font-size: 25px;
+    align-items: center;
+}
+.main{
+    width: 80%;
+}
+#about{
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+.text{
+    text-align: left;
+    font-size:18px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+label{
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.coffee-btn, .parmason-btn{
+    margin-right: 30px;
+}
+.ice-btn, .mike-btn, .toast-btn, .quiche-btn, .biscuits-btn{
+    margin-left: 30px;
+}
+.fas.fa-phone-volume, .fas.fa-envelope-open-text, .fas.fa-map-marker-alt, .fas.fa-phone{
+    padding: 0 10PX;
+    font-size: 14px;
+    justify-content: center;
+}
+
+#gotop{
+    position: fixed;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    right: 30px;
+    bottom: 30px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    z-index: 10;
+    text-decoration: none;
+    color: #FFF;
+    display: none;
+    background-color: #1e90ff;
+    border-radius: 100%;
+        &:hover{
+            background-color: #ecf4f3;
+            color: #ef4b4b;
+            border:1px solid #b6ffea;
+            text-decoration: none;
+        }
+}
+#input{
+    text-align: center;
+    margin: 20px auto;
+}
+footer{
+    background: #222;
+    color: #eee;
+    font-size: 14px;
+}
+footer p{
+    line-height: 30px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+.hide{
+    display: none;
+}
+@media(max-width:960px){
+    .btn{
+        padding: 10px;
+    }
+    .coffee-btn{
+        margin-right: 10px;
+    }
+    .ice-btn, .mike-btn{
+        margin-left: 10px;
+    }
+}

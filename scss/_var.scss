@@ -1,0 +1,25 @@
+$fonts:"Microsoft Jhenghei";
+$colors:(
+    red:#FD7272,
+    green:#55E6C1,
+    blue:#25CCF7,
+    purple:#6D214F,
+    navy: #5c94bd,
+    light: #eeeeee,
+    dark: #222222,
+);
+
+$breakpoints:(
+    sm:600px,
+    md:960px,
+    lg:1200px,
+    xl:1440px 
+);
+
+%float {
+    float: left;
+    // padding: 15px;
+}
+%col-gutters {
+    padding: 15px;
+}

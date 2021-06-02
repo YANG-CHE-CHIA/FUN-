@@ -1,0 +1,79 @@
+nav{
+    background: map-get($colors,dark);
+    position: relative;
+    a{
+        color: map-get($colors,light);
+        text-decoration: none!important;
+        display:block;
+        padding:20px;
+        font-size: 16px;
+    }
+    .row{
+        justify-content: space-between;
+        align-items: center;
+    } 
+    .logo{
+        width: 200px;
+        height:90px;
+        justify-content: center;
+        align-items: center;
+        margin-right: auto;
+        background-repeat:no-repeat; 
+    }
+  
+};
+@media(min-width:960px){
+nav{
+    a{
+        display: inline-block;
+        padding: 0 10px;
+        border-bottom: 0;
+    }
+    .row{   
+        flex-direction: row;
+        }   
+    .fas.fa-bars,.fas.fa-times{
+            display:none;
+        }
+    .item{
+        display: flex!important;
+        padding: 0 50px;
+         }
+    }
+};
+
+@media (max-width:960px){
+    nav{
+        padding-top:1px;
+    } 
+    .logo{
+        display: flex;
+        border-bottom:0;
+        }
+    .fas.fa-bars,.fas.fa-times{
+        display: flex;
+        font-size: 45px;
+        color: #f88020;
+        text-decoration: none;
+        margin-left: auto;
+        border-bottom:none;
+    }  
+    .fas.fa-times{
+        display: none;
+    }
+    .item{
+        display:none;
+        width:100%;
+        margin: 0;
+        z-index:9999;
+        a{
+            display: flex;
+            text-decoration: none;
+            padding:20px 0;
+            justify-content: center;
+            align-items: center;
+            border-bottom: 1px solid #000;
+        }
+    }
+}
+

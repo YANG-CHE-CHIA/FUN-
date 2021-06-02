@@ -1,0 +1,37 @@
+.full-width {
+    width: 100%;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+@for $i from 1 through 12 {
+    .col-#{$i}{
+        // width: calc(100% / 12 * #{$i});
+        flex: 1 0 calc(100% / 12 * #{$i});
+        // @extend %float;
+        @extend %col-gutters;
+    }
+}
+@each $size,$width in $breakpoints {
+    @media (min-width: $width){
+        .fixed-width {
+            width: $width;
+            margin: auto;
+        }
+        @for $i from 1 through 12 {
+            .col-#{$size}-#{$i}{
+                // width: calc(100% / 12 * #{$i});
+                flex: 1 0 calc(100% / 12 * #{$i})
+            }
+        }
+    }
+}
+@each $size,$width in $breakpoints {
+    @for $i from 1 through 12 {
+        .col-#{$size}-#{$i}{
+            @extend %col-gutters;
+        }
+    }
+}

@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>美味菜單</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" />
+    <link rel="stylesheet" href="../scss/css/style.min.css">
+</head>
+<body>
+    <nav class="full-width wow fadeIn" data-wow-duration="4s" >
+        <div class="row">
+            <a href="../index.html" class="logo">
+              <img src="../images/logo.svg" alt="breakfast">
+            </a>  
+              <a href="#" class="fas fa-bars"></a>
+              <a href="#" class="fas fa-times"></a>
+            <div class="item">
+                <a href="../html/funabout.html" class="items">關於我們</a>
+                <a href="../html/popularproducts.html" class="items">熱門商品</a>
+                <a href="../html/popularity.html" class="items">人氣推薦</a>
+                <a href="../html/dessert.html" class="items">美味點心</a>
+                <a href="../html/Quiche.html" class="items">可口蛋餅</a>
+                <a href="../html/food.html" class="items">美味菜單</a>
+                <a href="../html/contact .html" class="items">聯絡我們</a>
+            </div>
+          </div>
+      </nav>
+      <div class="banner">
+        <picture>
+            <source media="(min-width:1024px )" srcset="../images/banner/food/s_image.jpg">
+            <source media="(max-width:480px )" srcset="../images/banner/food/p_image.jpg">
+            <img src="../images/banner/food/t_image.jpg" alt="about" class="img-fluid">
+        </picture>
+      </div>  
+        <div class="container text-center">
+            <div class="btngroup">
+                <div class="row">
+                    <div class="col-md-12">
+                      <h2>飲品系列</h2>
+                      <button type="button" class="btn btn-dark coffee-btn active">咖啡</button>
+                      <button type="button" class="btn btn-dark tea-btn">純茶</button>
+                      <button type="button" class="btn btn-dark ice-btn">冰沙</button>
+                      <button type="button" class="btn btn-dark mike-btn">奶類</button>
+                    </div>
+                </div>
+            </div>
+                <div class="menu">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th class="text-left">▼品名</th>
+                                        <th class="text-right">▼價格</th>
+                                    </tr>
+                                </thead> 
+                                <tbody>
+                                    <tr>
+                                        <td class="text-left">◎美式咖啡(HOT/ICE)</td>
+                                        <td class="text-right">$50</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left">◎卡布奇諾(HOT/ICE)</td>
+                                        <td class="text-right">$70</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left">◎焦糖瑪奇朵(HOT/ICE)</td>
+                                        <td class="text-right">$80</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left">◎漂浮冰咖啡(ICE)</td>
+                                        <td class="text-right">$90</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left">◎研磨咖啡(HOT)</td>
+                                        <td class="text-right">$95</td>
+                                    </tr>
+                                </tbody>
+                            </table> 
+                        </div>
+                        <div class="col-md-6">
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th class="text-left">▼品名</th>
+                                        <th class="text-right">▼價格</th>
+                                    </tr>
+                                </thead> 
+                                <tbody>
+                                    <tr>
+                                        <td class="text-left">◎經典咖啡(HOT/ICE)</td>
+                                        <td class="text-right">$50</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left">◎濃縮咖啡(HOT/ICE)</td>
+                                        <td class="text-right">$80</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left">◎拿鐵咖啡(HOT/ICE)</td>
+                                        <td class="text-right">$80</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left">◎摩卡咖啡(ICE)</td>
+                                        <td class="text-right">$90</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left">◎布朗尼拿鐵(HOT)</td>
+                                        <td class="text-right">$95</td>
+                                    </tr>
+                                </tbody>
+                            </table> 
+                        </div>
+                    </div>
+                </div>
+                <div class="menu hide">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <table class="table table-hover">
+                                <thead>
+                                  <tr>
+                                      <th class="text-left">▼品名</th>
+                                      <th class="text-right">▼價格</th>
+                                  </tr>
+                                </thead> 
+                                  <tbody>
+                                    <tr>
+                                        <td class="text-left">◎阿薩姆紅茶(HOT壺裝/ICE)</td>
+                                        <td class="text-right">$30</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left">◎茉莉綠茶(HOT壺裝/ICE)</td>
+                                        <td class="text-right">$30</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left">◎高山青茶(HOT壺裝/ICE)</td>
+                                        <td class="text-right">$30</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left">◎桂花烏龍(HOT壺裝/ICE)</td>
+                                        <td class="text-right">$30</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left">◎烏龍綠茶(HOT壺裝/ICE)</td>
+                                        <td class="text-right">$30</td>
+                                    </tr>
+                                  </tbody>
+                            </table> 
+                        </div>
+                        <div class="col-md-6">
+                            <table class="table table-hover">
+                                <thead>
+                                  <tr>
+                                      <th class="text-left">▼品名</th>
+                                      <th class="text-right">▼價格</th>
+                                  </tr>
+                                </thead> 
+                                  <tbody>
+                                    <tr>
+                                        <td class="text-left">◎咖啡紅茶(HOT壺裝/ICE)</td>
+                                        <td class="text-right">$30</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left">◎冷泡茶(HOT壺裝/ICE)</td>
+                                        <td class="text-right">$30</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left">◎炭焙烏龍茶(HOT壺裝/ICE)</td>
+                                        <td class="text-right">$30</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left">◎烏龍青茶(HOT壺裝/ICE)</td>
+                                        <td class="text-right">$30</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left">◎桂花青茶(HOT壺裝/ICE)</td>
+                                        <td class="text-right">$30</td>
+                                    </tr>
+                                  </tbody>
+                            </table> 
+                        </div>
+                    </div>
+                </div>
+                <div class="menu hide">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <table class="table table-hover">
+                                <thead>
+                                  <tr>
+                                      <th class="text-left">▼品名</th>
+                                      <th class="text-right">▼價格</th>
+                                  </tr>
+                                </thead> 
+                                <tbody>
+                                  <tr>
+                                      <td class="text-left">◎蘋果冰沙</td>
+                                      <td class="text-right">$30</td>
+                                  </tr>
+                                  <tr>
+                                      <td class="text-left">◎鳳梨冰沙</td>
+                                      <td class="text-right">$35</td>
+                                  </tr>
+                                  <tr>
+                                      <td class="text-left">◎芒果冰沙(季節限定)</td>
+                                      <td class="text-right">$40</td>
+                                  </tr>
+                                  <tr>
+                                      <td class="text-left">◎草莓冰沙(季節限定)</td>
+                                      <td class="text-right">$50</td>
+                                  </tr>
+                                  <tr>
+                                      <td class="text-left">◎水蜜桃冰沙</td>
+                                      <td class="text-right">$55</td>
+                                  </tr>
+                                </tbody>
+                            </table> 
+                        </div>
+                        <div class="col-md-6">
+                            <table class="table table-hover">
+                                <thead>
+                                  <tr>
+                                      <th class="text-left">▼品名</th>
+                                      <th class="text-right">▼價格</th>
+                                  </tr>
+                                </thead> 
+                                <tbody>
+                                  <tr>
+                                      <td class="text-left">◎奇異果冰沙</td>
+                                      <td class="text-right">$30</td>
+                                  </tr>
+                                  <tr>
+                                      <td class="text-left">◎芭樂冰沙</td>
+                                      <td class="text-right">$35</td>
+                                  </tr>
+                                  <tr>
+                                      <td class="text-left">◎葡萄柚冰沙(季節限定)</td>
+                                      <td class="text-right">$40</td>
+                                  </tr>
+                                  <tr>
+                                      <td class="text-left">◎香蕉冰沙(季節限定)</td>
+                                      <td class="text-right">$50</td>
+                                  </tr>
+                                  <tr>
+                                      <td class="text-left">◎橘子冰沙</td>
+                                      <td class="text-right">$55</td>
+                                  </tr>
+                                </tbody>
+                            </table> 
+                        </div>
+                    </div>
+                </div>
+                <div class="menu hide">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <table class="table table-hover">
+                                <thead>
+                                  <tr>
+                                      <th class="text-left">▼品名</th>
+                                      <th class="text-right">▼價格</th>
+                                  </tr>
+                                </thead> 
+                                <tbody>
+                                  <tr>
+                                      <td class="text-left">◎珍珠奶茶</td>
+                                      <td class="text-right">$50</td>
+                                  </tr>
+                                  <tr>
+                                      <td class="text-left">◎波霸奶茶</td>
+                                      <td class="text-right">$35</td>
+                                  </tr>
+                                  <tr>
+                                      <td class="text-left">◎仙草凍奶茶</td>
+                                      <td class="text-right">$55</td>
+                                  </tr>
+                                  <tr>
+                                      <td class="text-left">◎布丁奶茶</td>
+                                      <td class="text-right">$55</td>
+                                  </tr>
+                                  <tr>
+                                      <td class="text-left">◎椰果奶茶</td>
+                                      <td class="text-right">$50</td>
+                                  </tr>
+                                </tbody>
+                            </table> 
+                        </div>
+                        <div class="col-md-6">
+                            <table class="table table-hover">
+                                <thead>
+                                  <tr>
+                                      <th class="text-left">▼品名</th>
+                                      <th class="text-right">▼價格</th>
+                                  </tr>
+                                </thead> 
+                                <tbody>
+                                  <tr>
+                                      <td class="text-left">◎烏龍奶茶</td>
+                                      <td class="text-right">$50</td>
+                                  </tr>
+                                  <tr>
+                                      <td class="text-left">◎布丁奶茶</td>
+                                      <td class="text-right">$35</td>
+                                  </tr>
+                                  <tr>
+                                      <td class="text-left">◎咖紅奶茶</td>
+                                      <td class="text-right">$55</td>
+                                  </tr>
+                                  <tr>
+                                      <td class="text-left">◎桂花奶茶</td>
+                                      <td class="text-right">$55</td>
+                                  </tr>
+                                  <tr>
+                                      <td class="text-left">◎奶茶</td>
+                                      <td class="text-right">$50</td>
+                                  </tr>
+                                </tbody>
+                            </table> 
+                        </div>
+                    </div>
+                </div>
+        </div> 
+        <div class="container text-center">
+            <div class="btngroup">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>漢堡&吐司系列</h2>
+                        <button type="button" class="btn btn-dark hamburger-btn">漢堡系列</button>
+                        <button type="button" class="btn btn-dark toast-btn">吐司系列</button>
+                    </div>
+                </div>
+            </div>
+            <div class="menu">
+                <div class="row">
+                    <div class="col-md-6">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th class="text-left">▼品名</th>
+                                    <th class="text-right">▼價格</th>
+                                </tr>
+                            </thead> 
+                            <tbody>
+                                <tr>
+                                    <td class="text-left">◎豬肉蛋堡</td>
+                                    <td class="text-right">$30</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-left">◎香雞蛋堡</td>
+                                    <td class="text-right">$35</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-left">◎培根蛋堡</td>
+                                    <td class="text-right">$35</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-left">◎火腿蛋堡</td>
+                                    <td class="text-right">$35</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-left">◎牛排蛋堡</td>
+                                    <td class="text-right">$80</td>
+                                </tr>
+                            </tbody>
+                        </table> 
+                    </div>
+                    <div class="col-md-6">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th class="text-left">▼品名</th>
+                                    <th class="text-right">▼價格</th>
+                                </tr>
+                            </thead> 
+                            <tbody>
+                                <tr>
+                                    <td class="text-left">◎玉米蛋堡</td>
+                                    <td class="text-right">$30</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-left">◎檸檬雞蛋堡</td>
+                                    <td class="text-right">$35</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-left">◎起司蛋堡</td>
+                                    <td class="text-right">$35</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-left">◎燻雞蛋堡</td>
+                                    <td class="text-right">$35</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-left">◎總匯蛋堡</td>
+                                    <td class="text-right">$80</td>
+                                </tr>
+                            </tbody>
+                        </table> 
+                    </div>
+                </div>
+            </div>
+            <div class="menu hide">
+                <div class="row">
+                    <div class="col-md-6">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th class="text-left">▼品名</th>
+                                    <th class="text-right">▼價格</th>
+                                </tr>
+                            </thead> 
+                            <tbody>
+                                <tr>
+                                    <td class="text-left">◎豬肉蛋吐司</td>
+                                    <td class="text-right">$30</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-left">◎香雞蛋吐司</td>
+                                    <td class="text-right">$35</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-left">◎培根蛋吐司</td>
+                                    <td class="text-right">$35</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-left">◎火腿蛋吐司</td>
+                                    <td class="text-right">$35</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-left">◎牛排蛋吐司</td>
+                                    <td class="text-right">$80</td>
+                                </tr>
+                            </tbody>
+                        </table> 
+                    </div>
+                    <div class="col-md-6">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th class="text-left">▼品名</th>
+                                    <th class="text-right">▼價格</th>
+                                </tr>
+                            </thead> 
+                            <tbody>
+                                <tr>
+                                    <td class="text-left">◎玉米蛋吐司</td>
+                                    <td class="text-right">$30</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-left">◎檸檬雞蛋吐司</td>
+                                    <td class="text-right">$35</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-left">◎起司蛋吐司</td>
+                                    <td class="text-right">$35</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-left">◎燻雞蛋吐司</td>
+                                    <td class="text-right">$35</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-left">◎總匯蛋吐司</td>
+                                    <td class="text-right">$80</td>
+                                </tr>
+                            </tbody>
+                        </table> 
+                    </div>
+                </div>
+            </div>
+        </div>  
+        <div class="container text-center">
+            <div class="btngroup">
+                <div class="row">
+                    <div class="col-md-12">
+                      <h2>點心&蛋餅系列</h2>
+                      <button type="button" class="btn btn-dark dessert-btn">點心系列</button>
+                      <button type="button" class="btn btn-dark quiche-btn">蛋餅系列</button>
+                    </div>
+                </div>
+            </div>
+            <div class="menu">
+                <div class="row">
+                    <div class="col-md-6">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th class="text-left">▼品名</th>
+                                    <th class="text-right">▼價格</th>
+                                </tr>
+                            </thead> 
+                            <tbody>
+                                <tr>
+                                    <td class="text-left">◎雞塊(5塊)</td>
+                                    <td class="text-right">$20</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-left">◎熱狗(5根)</td>
+                                    <td class="text-right">$20</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-left">◎薯餅(2塊)</td>
+                                    <td class="text-right">$10</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-left">◎薯條</td>
+                                    <td class="text-right">$30</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-left">◎玉子燒</td>
+                                    <td class="text-right">$30</td>
+                                </tr>
+                            </tbody>
+                        </table> 
+                    </div>
+                    <div class="col-md-6">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th class="text-left">▼品名</th>
+                                    <th class="text-right">▼價格</th>
+                                </tr>
+                            </thead> 
+                            <tbody>
+                                <tr>
+                                    <td class="text-left">◎檸檬雞(5塊)</td>
+                                    <td class="text-right">$50</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-left">◎豬肉排</td>
+                                    <td class="text-right">$20</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-left">◎德式香腸</td>
+                                    <td class="text-right">$30</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-left">◎歐姆蛋</td>
+                                    <td class="text-right">$30</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-left">◎荷包蛋</td>
+                                    <td class="text-right">$10</td>
+                                </tr>
+                            </tbody>
+                        </table> 
+                    </div>
+                </div>
+            </div>
+            <div class="menu hide">
+                <div class="row">
+                    <div class="col-md-6">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th class="text-left">▼品名</th>
+                                    <th class="text-right">▼價格</th>
+                                </tr>
+                            </thead> 
+                            <tbody>
+                                <tr>
+                                    <td class="text-left">◎鮪魚蛋餅</td>
+                                    <td class="text-right">$30</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-left">◎火腿蛋餅</td>
+                                    <td class="text-right">$30</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-left">◎蔬菜蛋餅</td>
+                                    <td class="text-right">$30</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-left">◎芋泥蛋餅</td>
+                                    <td class="text-right">$35</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-left">◎泡菜蛋餅</td>
+                                    <td class="text-right">$40</td>
+                                </tr>
+                            </tbody>
+                        </table> 
+                    </div>
+                    <div class="col-md-6">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th class="text-left">▼品名</th>
+                                    <th class="text-right">▼價格</th>
+                                </tr>
+                            </thead> 
+                            <tbody>
+                                <tr>
+                                    <td class="text-left">◎玉米蛋餅</td>
+                                    <td class="text-right">$30</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-left">◎培根蛋餅</td>
+                                    <td class="text-right">$30</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-left">◎起司蛋餅</td>
+                                    <td class="text-right">$30</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-left">◎燻雞蛋餅</td>
+                                    <td class="text-right">$35</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-left">◎總匯蛋餅</td>
+                                    <td class="text-right">$40</td>
+                                </tr>
+                            </tbody>
+                        </table> 
+                    </div>
+                </div>
+            </div>
+        </div> 
+            <div class="container text-center">
+                <div class="btngroup">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2>帕瑪森&捲餅&燒餅系列</h2>
+                            <button type="button" class="btn btn-dark parmason-btn">帕瑪森</button>
+                            <button type="button" class="btn btn-dark burrito-btn">捲餅</button>
+                            <button type="button" class="btn btn-dark biscuits-btn">燒餅</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th class="text-left">▼品名</th>
+                                        <th class="text-right">▼價格</th>
+                                    </tr>
+                                </thead> 
+                                <tbody>
+                                    <tr>
+                                        <td class="text-left">◎熱狗帕瑪森</td>
+                                        <td class="text-right">$50</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left">◎里肌帕瑪森</td>
+                                        <td class="text-right">$50</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left">◎洋蔥鮪魚帕瑪森</td>
+                                        <td class="text-right">$55</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left">◎雞排帕瑪森</td>
+                                        <td class="text-right">$65</td>
+                                    </tr>
+                                </tbody>
+                            </table> 
+                        </div>
+                        <div class="col-md-6">
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th class="text-left">▼品名</th>
+                                        <th class="text-right">▼價格</th>
+                                    </tr>
+                                </thead> 
+                                <tbody>
+                                    <tr>
+                                        <td class="text-left">◎火腿帕瑪森</td>
+                                        <td class="text-right">$50</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left">◎培根帕瑪森</td>
+                                        <td class="text-right">$50</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left">◎燻雞帕瑪森</td>
+                                        <td class="text-right">$55</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left">◎總匯帕瑪森</td>
+                                        <td class="text-right">$65</td>
+                                    </tr>
+                                </tbody>
+                            </table> 
+                        </div>
+                    </div>
+                </div>
+                <div class="menu hide">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th class="text-left">▼品名</th>
+                                        <th class="text-right">▼價格</th>
+                                    </tr>
+                                </thead> 
+                                <tbody>
+                                    <tr>
+                                        <td class="text-left">◎熱狗捲餅</td>
+                                        <td class="text-right">$50</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left">◎里肌捲餅</td>
+                                        <td class="text-right">$50</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left">◎洋蔥鮪魚捲餅</td>
+                                        <td class="text-right">$55</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left">◎雞排捲餅</td>
+                                        <td class="text-right">$65</td>
+                                    </tr>
+                                </tbody>
+                            </table> 
+                        </div>
+                        <div class="col-md-6">
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th class="text-left">▼品名</th>
+                                        <th class="text-right">▼價格</th>
+                                    </tr>
+                                </thead> 
+                                <tbody>
+                                    <tr>
+                                        <td class="text-left">◎火腿捲餅</td>
+                                        <td class="text-right">$50</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left">◎培根捲餅</td>
+                                        <td class="text-right">$50</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left">◎玉米捲餅</td>
+                                        <td class="text-right">$55</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left">◎燻雞捲餅</td>
+                                        <td class="text-right">$65</td>
+                                    </tr>
+                                </tbody>
+                            </table> 
+                        </div>
+                    </div>
+                </div>
+                <div class="menu hide">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th class="text-left">▼品名</th>
+                                        <th class="text-right">▼價格</th>
+                                    </tr>
+                                </thead> 
+                                <tbody>
+                                    <tr>
+                                        <td class="text-left">◎熱狗燒餅</td>
+                                        <td class="text-right">$50</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left">◎里肌燒餅</td>
+                                        <td class="text-right">$50</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left">◎洋蔥鮪魚燒餅</td>
+                                        <td class="text-right">$55</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left">◎雞排燒餅</td>
+                                        <td class="text-right">$65</td>
+                                    </tr>
+                                </tbody>
+                            </table> 
+                        </div>
+                        <div class="col-md-6">
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th class="text-left">▼品名</th>
+                                        <th class="text-right">▼價格</th>
+                                    </tr>
+                                </thead> 
+                                <tbody>
+                                    <tr>
+                                        <td class="text-left">◎火腿燒餅</td>
+                                        <td class="text-right">$50</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left">◎培根燒餅</td>
+                                        <td class="text-right">$50</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left">◎燻雞燒餅</td>
+                                        <td class="text-right">$55</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left">◎總匯燒餅</td>
+                                        <td class="text-right">$65</td>
+                                    </tr>
+                                </tbody>
+                            </table> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+              <footer class=" wow fadeIn" data-wow-duration="3s">
+                <div class="container">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <P><i class="fas fa-phone-volume "></i>點餐專線: 04-2657-4485</P>
+                        <p><i class="fas fa-envelope-open-text"></i>合作信箱: abc489@gmail.com</p>
+                        <p><i class="fas fa-map-marker-alt"></i>聯絡地址: 台中市西屯區三民路10段1025號</p> 
+                        <p><i class="fas fa-phone"></i>客服電話: 0800-457-453</p>
+                      </div>
+                      <div class="col-md-6">
+                        <p>copyright &copy; 2020</p> 
+                        <p>Design By Yang</p>
+                        <p>本網頁為作品展示．虛擬商店．並無商業行為．特此聲明</p>
+                        <p>本網站所有圖片乃蒐集自網路．版權屬原作者所有。</p>
+                      </div>
+                    </div>
+                </div>
+              </footer>
+        <a href="#" class="fas fa-angle-double-up fa-2x" id="gotop"></a>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="../js/js.js"></script>
+</body>
+</html>
